@@ -17,7 +17,7 @@ spec:
         name: kbot-oci
         namespace: flux-system
       chart: helm
-      version: "2.2.2"     # <- публічний чарт у GHCR
+      version: "2.2.3"     # <- публічний чарт у GHCR
       interval: 1m
   values:
     image:
