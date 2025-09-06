@@ -23,5 +23,6 @@ spec:
     image:
       registry: ghcr.io
       repository: kors-dev/kbot
-      tag: "v2.2.3"        # УВАГА: цей тег образу повинен існувати!
-    # Якщо образ приватний або тегу немає, див. нижче "Про образ".
+      tag: "v2.2.3-938957b"
+      os : "linux" 
+      arch: "amd64"
