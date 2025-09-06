@@ -7,4 +7,4 @@ spec:
   interval: 1m
   url: https://github.com/kors-dev/kbot.git
   ref:
-    branch: main
+    branch: develop
