@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: kbot-src
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://github.com/kors-dev/kbot.git
+  ref:
+    branch: main
