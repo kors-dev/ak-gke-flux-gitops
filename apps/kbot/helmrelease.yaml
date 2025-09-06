@@ -12,7 +12,7 @@ spec:
         name: kbot-src
         namespace: flux-system
       interval: 1m
-      chart: ./helm/kbot
+      chart: ./helm
   values:
     image:
       registry: ghcr.io
