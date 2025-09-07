@@ -20,6 +20,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: oci://ghcr.io/kors-dev/charts/helm
+  url: oci://ghcr.io/kors-dev/charts/kbot
   ref:
     semver: ">2.2.0"
