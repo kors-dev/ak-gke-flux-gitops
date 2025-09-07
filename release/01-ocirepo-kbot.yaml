@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: kbot
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: oci://ghcr.io/kors-dev/charts/helm   #  oci_chart_url
+  ref:
+    semver: ">2.2.0"                        #  oci_chart_semver
